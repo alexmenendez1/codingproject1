@@ -1,0 +1,23 @@
+// const contentDiv= document.getElementById("content");
+// const firstMessage = document.querySelector('.message')
+
+const nameAndEmail = document.querySelectorAll('#serviceInput')
+const commmentSection = document.getElementById('commentSection')
+const addProductButton = document.getElementById('addButton')
+
+addProductButton.addEventListener('click', function() =>{
+    const entry= document.createElement('comment');
+    entry.textcontent= "hi";
+    commmentSection.appendChild(newComment)
+}
+
+    
+
+// const nameInput = document.getElementByID("username");
+
+// const emailInput = document.querySelector("#email");
+// const messageInput = document.querySelector("#comments")
+
+// const entry =document.createElement("div");
+// entry.textContent= "Feedback recorded. Thank you!";
+// document.getElementById("Feedback-display").appendChild(entry);
